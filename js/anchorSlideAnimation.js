@@ -1,0 +1,19 @@
+/*
+ * Copyright (c) 2019 by Harry Chiu
+ */
+
+anchorSlidAnimation = () => {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+}
+
+window.onload = () => {
+    anchorSlidAnimation();
+}

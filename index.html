@@ -20,6 +20,9 @@
 
     <!-- FontAwesome Icon -->
     <script src="https://kit.fontawesome.com/6b87b2d976.js" crossorigin="anonymous"></script>
+
+    <!-- Anchor Slide Animation -->
+    <script src="./js/anchorSlideAnimation.js"></script>
 </head>
 
 <body>
@@ -28,27 +31,141 @@
         <div class="overlay d-table-cell text-center align-middle pl-md-5">
             <div class="pl-md-5">
                 <div>
-                    <a href="https://www.facebook.com/profile.php?id=100001582918034" class="mr-4">
+                    <a href="https://www.facebook.com/profile.php?id=100001582918034" target="_new" class="mr-4">
                         <i class="fab fa-facebook-square"></i>
                     </a>
-                    <a href="https://www.instagram.com/hellohi1106/" class="mr-4">
+                    <a href="https://www.instagram.com/hellohi1106/" target="_new" class="mr-4">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://github.com/harry-chiu">
+                    <a href="https://github.com/harry-chiu" target="_new">
                         <i class="fab fa-github"></i>
                     </a>
-                </di>
-                <h5 class="font-weight-bold my-3">Hello, World</h5>
-                <div class="my-3">
-                    <h1 class="font-weight-bold">Hi, I'm Harry Chiu</h1>
-                    <div id="typing-effect"></div>
+                    </di>
+                    <h5 class="font-weight-bold my-3">Hello, World</h5>
+                    <div class="my-3">
+                        <h1 class="font-weight-bold">Hi, I'm Harry Chiu</h1>
+                        <div id="typing-effect"></div>
+                    </div>
+                    <div class="d-flex justify-content-center my-3">
+                        <h4 class="font-weight-lighter pr-3 border-right border-white">Web Developer</h4>
+                        <h4 class="font-weight-lighter pl-3">App Developer</h4>
+                    </div>
+                    <div class="my-5">
+                        <a href="#about" class="button">About Me</a>
+                    </div>
                 </div>
-                <div class="d-flex justify-content-center my-3">
-                    <h4 class="font-weight-lighter pr-3 border-right border-white">Web Developer</h4>
-                    <h4 class="font-weight-lighter pl-3">App Developer</h4>
-                </div>
-                <div class="my-5">
-                    <a class="button">About Me</a>
+            </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container-fluid w-100 h-100 px-md-5">
+        <div class="row h-100 text-center m-0">
+            <div class="align-self-center col col-md-4">
+                <img class="avatar img-thumbnail" src="./img/avatar.jpg" />
+                <ul class="text-left p-0 my-3">
+                    <li class="border-bottom mb-3">
+                        <div class="col-3 font-weight-bold">Name</div>
+                        <div class="col-9 content">Harry Chiu</div>
+                    </li>
+                    <li class="border-bottom mb-3">
+                        <div class="col-3 font-weight-bold">Birth</div>
+                        <div class="col-9 content">1996/11/06</div>
+                    </li>
+                    <li class="border-bottom mb-3">
+                        <div class="col-3 font-weight-bold">Ideal Job</div>
+                        <div class="col-9 content">Front-End Developer</div>
+                    </li>
+                    <li class="border-bottom mb-3">
+                        <div class="col-3 font-weight-bold">Phone</div>
+                        <div class="col-9 content">0935-704-018</div>
+                    </li>
+                    <li class="border-bottom mb-3">
+                        <div class="col-3 font-weight-bold">E-mail</div>
+                        <div class="col-9 content">harrychiu1106@gmail.com</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-md-left align-self-center col col-md-8">
+                <h1 class="my-3 font-weight-bold">About Me</h1>
+                <p class="text-justify">
+                    Phasellus sit amet libero nec lectus elementum blandit. Aliquam consequat porta maximus.
+                    Vestibulum porttitor arcu nisi, sed tincidunt nibh venenatis commodo. Curabitur porta risus nec
+                    euismod dignissim. Fusce imperdiet ipsum a nunc tincidunt, quis tristique sem molestie. Nam
+                    hendrerit congue nulla, non consectetur odio sagittis sollicitudin. Donec hendrerit mollis
+                    lectus a interdum. Vestibulum quis enim vel tortor congue feugiat. Pellentesque nec libero nec
+                    est dapibus accumsan. Pellentesque sollicitudin quam est, quis efficitur sapien commodo vel.
+                    Fusce tristique placerat mauris a egestas. Praesent feugiat ut felis sit amet fermentum. Cras
+                    consequat elit dui, eleifend molestie lacus congue sit amet. Vestibulum consectetur nibh et
+                    suscipit vulputate.
+                </p>
+                <h1 class="my-3 font-weight-bold">Skills</h1>
+                <div id="skills" class="text-left">
+                    <div class="row text-nowrap">
+                        <div class="col-6 col-md">
+                            <div class="d-flex">
+                                <i class="fas fa-check my-auto mr-2"></i>
+                                <h2 class="m-0">Front-End</h2>
+                            </div>
+                            <div class="my-3">
+                                <div class="my-2">
+                                    <img src="./img/html5.png">
+                                    <span class="ml-1">HTML</span>
+                                </div>
+                                <div class="my-2">
+                                    <img src="./img/css3.png">
+                                    <span class="ml-1">CSS</span>
+                                </div>
+                                <div class="my-2">
+                                    <img src="./img/javascript.png">
+                                    <span class="ml-1">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="d-flex">
+                                <i class="fas fa-check my-auto mr-2"></i>
+                                <h2 class="m-0">Back-End</h2>
+                            </div>
+                            <div class="my-3">
+                                <div class="my-2">
+                                    <img src="./img/python.png">
+                                    <span class="ml-1">Python</span>
+                                </div>
+                                <div class="my-2">
+                                    <img src="./img/csharp.jpg">
+                                    <span class="ml-1">C#</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="d-flex">
+                                <i class="fas fa-check my-auto mr-2"></i>
+                                <h2 class="m-0">Application</h2>
+                            </div>
+                            <div class="my-3">
+                                <div class="my-2">
+                                    <img src="./img/react-native.png">
+                                    <span class="ml-1">React-Native</span>
+                                </div>
+                                <div class="my-2">
+                                    <img src="./img/swift.png">
+                                    <span class="ml-1">Swift</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md">
+                            <div class="d-flex">
+                                <i class="fas fa-check my-auto mr-2"></i>
+                                <h2 class="m-0">Version Control</h2>
+                            </div>
+                            <div class="my-3">
+                                <div class="my-2">
+                                    <img src="./img/git.png">
+                                    <span class="ml-1">Git</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
