@@ -1,0 +1,69 @@
+/*
+    Global
+*/
+
+html, body {
+    font-family: PT Sans, Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    color: #eee;
+    background-color: #111;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*
+    Home
+*/
+
+#home {
+    position: fixed;
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#home h1 {
+    font-size: 52px;
+    letter-spacing: 3px;
+}
+
+#home h4 {
+    font-family: sans-serif;
+}
+
+#home h5 {
+    font-size: 24px;
+    letter-spacing: 5px;
+    color: rgb(226, 0, 75);
+}
+
+#home i {
+    color: #eee;
+    font-size: 28px;
+    transition-duration: 0.25s;
+}
+
+#home i:hover {
+    color: rgb(226, 0, 75);
+    transition-duration: 0.25s;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.button {
+    padding: 15px 40px;
+    border: 1px solid #eee;
+    transition-duration: 0.25s;
+}
+
+.button:hover {
+    transition-duration: 0.25s;
+    border-color: rgb(226, 0, 75);
+    background: rgb(226, 0, 75);
+    cursor: pointer;
+}
