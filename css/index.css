@@ -327,3 +327,12 @@ a:visited {
 .img-hover-zoom:hover img {
     transform: scale(1.15);
 }
+
+/*
+    Footer
+*/
+
+#footer {
+    color: #eee;
+    background: #222;
+}
