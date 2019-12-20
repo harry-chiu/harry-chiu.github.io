@@ -125,6 +125,10 @@ a:visited {
     About
 */
 
+#about {
+    background: #fff;
+}
+
 #about ul {
     list-style: none;
 }
@@ -141,7 +145,7 @@ a:visited {
     color: #555;
 }
 
-#about > span {
+#about>span {
     color: #555;
 }
 
@@ -181,7 +185,7 @@ a:visited {
     outline: 1px solid rgb(226, 0, 75);
     outline-offset: 3px;
     transition-duration: 0.25s;
-    background: rgb(255, 18, 97);
+    background: rgb(226, 0, 75);
 }
 
 #other-btn {
@@ -373,6 +377,17 @@ a:visited {
     font-weight: normal;
 }
 
+.timeline ul {
+    color: #fff;
+    font-size: 20px;
+    list-style: none;
+}
+
+.timeline li {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
 /*
     Portfolio
 */
@@ -411,5 +426,4 @@ a:visited {
 
 #footer {
     color: #fff;
-    background: #222;
 }
