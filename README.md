@@ -85,5 +85,3 @@ Partial internal business automation.
 
 12/13 Completing voluntary military service, in addition to using ordinary time to learn
   programming languages, is also looking for a job that can give full play to its strengths.
-
-# Portfolio
