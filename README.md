@@ -1,87 +1,70 @@
-# Harry Chiu's Personal Website
+# Getting Started with Create React App
 
-Hello, I'm Harry Chiu.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# About Me
+## Available Scripts
 
-### Introduce
+In the project directory, you can run:
 
-Hello, I'm Harry. I graduated from Shih-Shin University's Department of Asset Management,
-specializing in front-end programming of web pages or apps. Before graduation, I completed a
-dual-platform native app project in cooperation with the Social Bureau.
+### `npm start`
 
-Clean code is my insistence. Clean code improves the quality of the program, while poor code slows
-down the development efficiency. I always pay attention to and keep the code clean.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-My favorite sentence is, "Stand on the shoulders of giants." This phrase reminds me at all times not
-to spend time doing what others have done, to move quickly on the road that has been opened, to keep
-up with the predecessors.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Skills
+### `npm test`
 
-- Front-End
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-  - HTML
-  - CSS
-  - JavaScript
+### `npm run build`
 
-- Back-End
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-  - Python
-  - C#
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Application
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-  - React-Native
-  - Swift
+### `npm run eject`
 
-- Version Control
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-  - Git
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-# Experience and Work History
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### 2018
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- Graduation Topic
+## Learn More
 
-Responsible for front-end programming and uses React-Native
-to create Android/iOS native apps in the two-person engineering team.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-The app focuses on the care of the elderly. It mainly provides electronic services
-for the bases under the Social Bureau, improves the efficiency of base management volunteers
-and volunteers to care for the elders, and also builds an interactive social platform for
-the elders to let them out Home, integrate into society.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-These functions are designed after interviews with managers and volunteers
-at the Social Affairs Bureau and its bases.
+### Code Splitting
 
-### 2019
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- LINE EC Innovation
+### Analyzing the Bundle Size
 
-Mainly in the LINE Shopping team of LINE, as a Customer Service Engineer.
-Use Python and front-end skills to assist other members of the team and their own business.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- Google Extension
+### Making a Progressive Web App
 
-Google Extension, the function is to optimize and add new functions to the company's
-internal pages to improve the work efficiency of the business department and the
-department in which they are located.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- LINE BOT / LINE Notify
+### Advanced Configuration
 
-LINE BOT / LINE Notify is used to push broadcasts at a fixed time and provide daily data monitoring data.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-- Selenium
+### Deployment
 
-According to the specified needs, write web crawlers to collect data.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-- Automation
+### `npm run build` fails to minify
 
-Partial internal business automation.
-
-### Now
-
-12/13 Completing voluntary military service, in addition to using ordinary time to learn
-  programming languages, is also looking for a job that can give full play to its strengths.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
